@@ -8,7 +8,6 @@ export const digimonReducer = (state = initialState, action) => {
             ]
         case "FETCH_DIGIMON_SUCCESS":
             return [
-                ...state,
                 ...action.payload
             ]
         case "FETCH_DIGIMON_FAILURE":
